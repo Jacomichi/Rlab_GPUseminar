@@ -1,12 +1,14 @@
-# Rlab GPUseminar
+# Rlab GPU seminar (2021 spring smester)
 R研のGPUセミナー用のリポジトリ。
 
 セミナースライドおよびノートは別途配布
 
 ## 1. Hello World
-CUDAのHello World
-## 2. Vector add
-グローバルメモリーを使ったベクトルの足し算
+- CUDAの基本的な書き方。
+- カーネル関数の書き方。
+- CUDAの基本的な書き方。
+## 2. グローバルメモリーを使ったベクトルの足し算
+- 
 ## 3. Vector add with Unified memory
 Unifiedメモリーを使ったベクトルの足し算
 ## 4. Matrix transpose with shared memory and global memory
