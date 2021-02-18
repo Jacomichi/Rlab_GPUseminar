@@ -6,24 +6,34 @@ R研のGPUセミナー用のリポジトリ。
 ## 1. Hello World
 - CUDAの基本的な書き方。
 - カーネル関数の書き方。
-- CUDAの基本的な書き方。
 ## 2. グローバルメモリーを使ったベクトルの足し算
-- 
-## 3. Vector add with Unified memory
-Unifiedメモリーを使ったベクトルの足し算
-## 4. Matrix transpose with shared memory and global memory
-グローバルメモリーとSharedメモリーを使った行列の転置の計算
-## 5. CuRandを使ったサンプルコード
-一様分布の平均
-モンテカルロ法を用いた円周率の計算
-- 通常のカーネル関数版
-- Thrustを用いたバージョン
-## 6. Thrustのサンプルコード
-Thrustの使ったいくつかのサンプル
+- グローバルメモリーの確保
+- スレッドインデックスを使った演算
+## 3. Unifiedメモリーを使ったベクトルの足し算
+- Unifiedメモリーの使い方
+- Unifiedメモリーの高速化
+## 4. 行列の転置
+- グローバルメモリーを使った行列の転置
+- Sharedメモリーを使った行列の転置
+- バンクコンフリクトとパディング
+## 5. CuRand
+- CuRandのホストAPIの使い方
+- CuRandのデバイスAPIの使い方
+- 一様分布の平均
+- モンテカルロ法を用いた円周率の計算
+## 6. Thrust
+- device_vector
+- transform
+- reduce and sort
+- Fancy Iterator
 ## 7. リダクション
-リダクションの高速化技法
+- リダクションの基本的な書き方
+- Sharedメモリーの活用
+- Cooperative groupとwarp shuffle命令
 ## 8. CUDAストリーム
-CUDAストリームを用いたベクトルの足し算
+- CUDAストリームの使い方
+- CUDAストリームを使ったベクトルの足し算
+
 ## 9. 自由な1次元ブラウン粒子の運動
 相互作用のない1次元Langevin方程式の計算
 ## 10. 自由な3次元ブラウン粒子の運動
