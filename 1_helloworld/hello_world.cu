@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 __global__ void print_from_device(void){
 	printf("Hello World! from device\n");
 }
