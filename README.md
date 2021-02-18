@@ -1,8 +1,9 @@
-# Rlab GPU seminar (2021 spring smester)
+# Rlab GPU seminar (2021 spring semester)
 R研のGPUセミナー用のリポジトリ。
 
 セミナースライドおよびノートは別途配布
 
+## シラバス
 ## 1. Hello World
 - CUDAの基本的な書き方。
 - カーネル関数の書き方。
