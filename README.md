@@ -10,12 +10,12 @@ CUDAのHello World
 ## 3. Vector add with Unified memory
 Unifiedメモリーを使ったベクトルの足し算
 ## 4. Matrix transpose with shared memory and global memory
-グローバルメモリーとSharedメモリーを使った行列の転地の計算
+グローバルメモリーとSharedメモリーを使った行列の転置の計算
 ## 5. CuRandを使ったサンプルコード
 一様分布の平均
 モンテカルロ法を用いた円周率の計算
-- kernel version
-- Thrust version
+- 通常のカーネル関数版
+- Thrustを用いたバージョン
 ## 6. Thrustのサンプルコード
 Thrustの使ったいくつかのサンプル
 ## 7. リダクション
