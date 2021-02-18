@@ -1,6 +1,8 @@
 # Rlab GPUseminar
 R研のGPUセミナー用のリポジトリ。
 
+セミナースライドおよびノートは別途配布
+
 ## 1. Hello World
 CUDAのHello World
 ## 2. Vector add
