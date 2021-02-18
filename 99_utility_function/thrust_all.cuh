@@ -1,0 +1,27 @@
+#include <thrust/host_vector.h>
+#include <thrust/device_vector.h>
+#include <thrust/sort.h>
+#include <thrust/copy.h>
+#include <thrust/fill.h>
+#include <thrust/sequence.h>
+#include <thrust/transform.h>
+#include <thrust/transform_reduce.h>
+#include <thrust/replace.h>
+#include <thrust/functional.h>
+#include <thrust/scan.h>
+#include <thrust/generate.h>
+#include <thrust/find.h>
+#include <thrust/iterator/constant_iterator.h>
+#include <thrust/iterator/counting_iterator.h>
+#include <thrust/iterator/transform_iterator.h>
+#include <thrust/iterator/permutation_iterator.h>
+#include <thrust/iterator/zip_iterator.h>
+#include <thrust/device_malloc.h>
+#include <thrust/device_free.h>
+#include <thrust/inner_product.h>
+#include <thrust/execution_policy.h>
+
+#include <iostream>
+#include <list>
+#include <algorithm>
+#include <vector>
