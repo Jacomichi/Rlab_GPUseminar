@@ -53,7 +53,9 @@ CUDAの基本的な書き方から初めて分子動力学計算を自力で組�
 - without verlet list
 - with verlet list
 ## 14. Molecular Dyanamics simulation (Velocity Verlet)
-
+- Harmonic potential
+- Softcore
+- WCA
 
 ## TODO
 - FIRE法を用いたエネルギー最小化
