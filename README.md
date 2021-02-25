@@ -49,10 +49,12 @@ CUDAの基本的な書き方から初めて分子動力学計算を自力で組�
 ## 12. Verlet listの作成
 - 全粒子検索バージョン($O(N^2)$)
 - グリッド検索バージョン($O(N)$)
+## 13. Many body Langevin equation
+- without verlet list
+- with verlet list
+## 14. Molecular Dyanamics simulation (Velocity Verlet)
 
 
 ## TODO
-- 相互作用のあるLangevin多体系
-- MD
 - FIRE法を用いたエネルギー最小化
 - 剪断変形
